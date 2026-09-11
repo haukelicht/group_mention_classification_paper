@@ -7,9 +7,8 @@ apxs/
 secs/
 code/
 
-results/
-!results/figures/
-!results/tables/
+results/classifier_evaluation/
+results/intermediate/
 
 notes.md
 outline.md

@@ -1,0 +1,27 @@
+\begin{table}[!th]
+\centering
+\caption{Performance of the top $k$ terms for each attribute category in predicting the presence of that attribute in mentions. The table reports the proportion of mentions in each attribute category that contain at least one of the top $k$ terms for that category. The top $k$ terms are determined based on the ten tokens with the highest fighting words $z$-scores.}
+\label{tableC04}
+\begin{tabular}{rrrrrrr}
+\toprule
+ &  & \multicolumn{5}{c}{top $k$ terms} \\
+ &  & 10 & 20 & 30 & 40 & 50 \\
+\midrule
+\multirow[t]{4}{*}{economic} & employment status & 0.793 & 0.830 & 0.852 & 0.878 & 0.889 \\
+ & education & 0.701 & 0.780 & 0.817 & 0.837 & 0.849 \\
+ & income/wealth/economic status & 0.329 & 0.446 & 0.527 & 0.585 & 0.613 \\
+ & occupation/profession & 0.200 & 0.362 & 0.412 & 0.464 & 0.534 \\
+\cmidrule(lr){1-7}
+\multirow[t]{10}{*}{noneconomic} & family & 0.883 & 0.894 & 0.910 & 0.916 & 0.918 \\
+ & age & 0.843 & 0.888 & 0.895 & 0.905 & 0.910 \\
+ & gender/sexuality & 0.809 & 0.837 & 0.850 & 0.871 & 0.872 \\
+ & health & 0.742 & 0.848 & 0.877 & 0.895 & 0.903 \\
+ & ethnicity & 0.609 & 0.690 & 0.768 & 0.803 & 0.810 \\
+ & place/location & 0.538 & 0.622 & 0.666 & 0.678 & 0.684 \\
+ & shared values/mentalities & 0.486 & 0.512 & 0.555 & 0.592 & 0.620 \\
+ & crime & 0.476 & 0.539 & 0.683 & 0.713 & 0.733 \\
+ & religion & 0.420 & 0.501 & 0.533 & 0.538 & 0.542 \\
+ & nationality & 0.367 & 0.411 & 0.421 & 0.507 & 0.513 \\
+\bottomrule
+\end{tabular}
+\end{table}
