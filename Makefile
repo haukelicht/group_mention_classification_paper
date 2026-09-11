@@ -70,7 +70,7 @@ paper:
 	pdflatex -interaction=nonstopmode paper.tex && pdflatex -interaction=nonstopmode paper.tex
 	@echo "✅ PDF compiled successfully: paper.pdf"
 
-PAGE ?= 40
+PAGE ?= 47
 separate-paper:
 	@if [ -z "$(PAGE)" ]; then \
 		echo "Usage: make separate PAGE=<page_number>"; \
