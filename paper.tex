@@ -1,136 +1,173 @@
 \documentclass[12pt]{article}
 
-\usepackage{xcolor}
-\usepackage[lmargin=1in,rmargin=1in,tmargin=1in,bmargin=1in]{geometry}
-\usepackage{amsmath}
-\setcounter{secnumdepth}{2}
+% ------------------------------------------------------------------
+% Encoding, fonts, and typography
+% ------------------------------------------------------------------
 
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math} % this also loads fontspec
+  \usepackage{textcomp}
+\else
+  \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
+
 \usepackage{lmodern}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{%
+  \usepackage{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath}
 }{}
+
+% ------------------------------------------------------------------
+% Page layout and paragraph formatting
+% ------------------------------------------------------------------
+
+\usepackage[
+  lmargin=1in,
+  rmargin=1in,
+  tmargin=1in,
+  bmargin=1in
+]{geometry}
+
 \usepackage{setspace}
 \usepackage{parskip}
+\setlength{\emergencystretch}{3em}
 
-\usepackage{booktabs}
+% ------------------------------------------------------------------
+% Mathematics and color
+% ------------------------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+% ------------------------------------------------------------------
+% Tables
+% ------------------------------------------------------------------
+
 \usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{adjustbox}
 
 \newcolumntype{L}{>{\raggedright\arraybackslash}p}
 \newcolumntype{R}{>{\raggedleft\arraybackslash}p}
-\newcolumntype{H}{>{\raggedright\hangindent=0.5em\hangafter=1\arraybackslash}p}
+\newcolumntype{H}{%
+  >{\raggedright\hangindent=0.5em\hangafter=1\arraybackslash}p
+}
 
-% \usepackage{etoolbox}
+% ------------------------------------------------------------------
+% Graphics, captions, and floats
+% ------------------------------------------------------------------
 
 \usepackage{graphicx}
+\usepackage[labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{afterpage}
+\usepackage{pdflscape}
+
+% ------------------------------------------------------------------
+% Title and author formatting
+% ------------------------------------------------------------------
+
+\usepackage{titling}
+\usepackage{authblk}
+
+\setlength{\droptitle}{-2.2cm}
+\posttitle{\par\end{center}\vskip 1.5em}
+% \renewcommand\Authfont{\normalsize}
+\renewcommand\Affilfont{\normalsize}
+
+% ------------------------------------------------------------------
+% Contents and section numbering
+% ------------------------------------------------------------------
+
+\usepackage{titletoc}
+\setcounter{secnumdepth}{2}
+
+% ------------------------------------------------------------------
+% Pandoc/citeproc support
+% ------------------------------------------------------------------
 
 \NewDocumentCommand\citeproctext{}{}
-%\NewDocumentCommand\citeproc{mm}{\begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+
 \makeatletter
- \let\@cite@ofmt\@firstofone
- \def\@biblabel#1{}
- \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\let\@cite@ofmt\@firstofone
+\def\@biblabel#1{}
+\def\@cite#1#2{{#1\if@tempswa, #2\fi}}
 \makeatother
+
 \newlength{\cslhangindent}
 \setlength{\cslhangindent}{1.5em}
-% \newlength{\csllabelwidth}
-% \setlength{\csllabelwidth}{3em}
-\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
- {\begin{list}{}{%
-  \setlength{\itemindent}{0pt}
-  \setlength{\leftmargin}{0pt}
-  \setlength{\parsep}{0pt}
-  \ifodd #1
-   \setlength{\leftmargin}{\cslhangindent}
-   \setlength{\itemindent}{-1\cslhangindent}
-  \fi
-  \setlength{\itemsep}{#2\baselineskip}}}
- {\end{list}}
-\usepackage{calc}
-% \newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
-% \newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
-% \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
-% \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
+\newenvironment{CSLReferences}[2]
+  {\begin{list}{}{%
+    \setlength{\itemindent}{0pt}
+    \setlength{\leftmargin}{0pt}
+    \setlength{\parsep}{0pt}
+    \ifodd #1
+      \setlength{\leftmargin}{\cslhangindent}
+      \setlength{\itemindent}{-\cslhangindent}
+    \fi
+    \setlength{\itemsep}{#2\baselineskip}}}
+  {\end{list}}
 
-\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}%
+  \setlength{\parskip}{0pt}%
+}
 
-\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+% ------------------------------------------------------------------
+% Links and PDF metadata: load near the end
+% ------------------------------------------------------------------
 
-
-
- 
-
-
-
-\usepackage{titling}  % Provides \subtitle command
-\setlength{\droptitle}{-2.2cm}
-
-\usepackage{caption}
-
-\usepackage{array}
-\newcolumntype{L}{>{\raggedright\arraybackslash}p}
-\newcolumntype{R}{>{\raggedleft\arraybackslash}p}
-\newcolumntype{H}{>{\raggedright\hangindent=0.5em\hangafter=1\arraybackslash}p}
-
-\usepackage[section]{placeins}
-
-\usepackage{authblk}
-\usepackage[labelfont=bf]{caption}
-\usepackage{multirow}
-\usepackage{pdflscape}
-\usepackage{afterpage}
-\usepackage{titletoc}
-\usepackage{float}
-\floatstyle{ruled}
-\usepackage{subcaption}
-
-
-\makeatother
 \usepackage[unicode]{hyperref}
 \usepackage{bookmark}
 
-
 \hypersetup{
   pdftitle={Attributes, Abstractions, and Combinations},
-  pdfauthor={Hauke Licht;de Leonce Röth},
-  pdfkeywords={social groups, social attributes, computational text analysis, political behavior},
+  pdfauthor={Hauke Licht; Leonce Röth},
+  pdfkeywords={
+    social groups,
+    social attributes,
+    computational text analysis,
+    political behavior
+  },
   colorlinks=true,
-  linkcolor={black},
-  citecolor={black},
-  urlcolor={black},
-  pdfcreator={LaTeX}}
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black,
+  pdfcreator={LaTeX}
+}
 
-\usepackage{adjustbox}
+% ------------------------------------------------------------------
+% Paper title, authors, and author affiliations
+% ------------------------------------------------------------------
 
 
 \title{%
-    Attributes, Abstractions, and Combinations
+    Attributes, Abstractions, and Combinations%
     \\\Large A New Taxonomy for Studying How Parties Invoke Social Groups%
 }
 
+\author[1]{%
+  Hauke Licht%
+  \thanks{%
+    \href{mailto:Corresponding author: hauke.licht@uibk.ac.at}{Corresponding author: hauke.licht@uibk.ac.at}
+  }
+}
+\author[2]{Leonce Röth}
 
-  \author{Hauke Licht\thanks{\href{mailto:Corresponding author: hauke.licht@uibk.ac.at}{Corresponding author: hauke.licht@uibk.ac.at}}}
-            \affil{%
-                  Department of Political Science \& Digital Science Center, University of Innsbruck, Innsbruck, Austria
-                                      }
-        \author{Leonce Röth}
-            \affil{%
-                  Geschwister Scholl Institute of Political Science, LMU Munich, Munich, Germany
-                                      }
-      
+\affil[1]{Department of Political Science \& Digital Science Center, University of Innsbruck, Austria}
+\affil[2]{Geschwister Scholl Institute of Political Science, LMU Munich, Germany}
+    
 \date{\today}
+
 \begin{document}
 \maketitle
 \begin{abstract}
