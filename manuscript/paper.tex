@@ -34,7 +34,11 @@ Our taxonomy, data, and pre-trained classifiers contribute new resources to faci
 \begin{center}
 Word count: 12037
 \end{center}
-% TODO: add for journal submission
+
+\vfill
+\noindent\textbf{AI Disclosure Statement}\ \
+AI tools were used for copy-editing and proofreading (GPT 4.1) and discussing aspects of results presentation (Claude Sonnet 4.5) through the Github Copilot Chat coding assistance.
+All analyses, interpretations, and writing are our own responsibility.
 
 \thispagestyle{empty}
 \clearpage
@@ -81,7 +85,9 @@ Rather than forcing mutually exclusive classifications, the taxonomy therefore c
 
 We operationalize our taxonomy through a scalable two-step measurement procedure.
 Building on recent advances in automated group mention detection (Licht and Sczepanski 2025), we first identify verbatim social group references in party manifestos.
-We then classify the group-defining attributes contained in these references using novel supervised classifiers developed for the taxonomy introduced in this paper.
+We then classify the group-defining attributes contained in these references using novel supervised classifiers developed for the taxonomy introduced in this paper.\footnote{%
+  The models are publically available for download at \href{https://huggingface.co/collections/haukelicht/social-group-mention-attribute-classification}{huggingface.co/collections/haukelicht/social-group-mention-attribute-classification}.%
+}
 Together, the resulting classifiers enable the comparative analysis of party group references across parties, countries, and time at a scale that would be infeasible through manual coding alone.
 
 We illustrate the analytical leverage of our framework using a corpus that combines broad longitudinal coverage of Green and populist radical right (PRR) parties across 36 democracies with Social Democratic and Conservative manifestos from Germany, Sweden, the United Kingdom, and the United States.
@@ -357,7 +363,9 @@ We already stopped after the third annotation round -- having annotated only 0.2
 More generally, in transfer learning with transformer models, the absolute number and quality of annotated examples matter more than their proportion of the target corpus.
 Accordingly, we prioritized quality and diversity over quantity through our step-wise sampling strategy combining informativeness- and classification uncertainty-based sampling (cf. Licht et al. 2025).
 
-To train the final group mention detection classifier used in our application, we combined all sentences annotated in these three rounds, set aside 15\% of sentences for evaluation, and fine-tuned a RoBERTa base model for token classification.
+To train the final group mention detection classifier used in our application, we combined all sentences annotated in these three rounds, set aside 15\% of sentences for evaluation, and fine-tuned a RoBERTa base model for token classification.\footnote{%
+  The models are publically available for download at \href{https://huggingface.co/collections/haukelicht/social-group-mention-attribute-classification}{huggingface.co/collections/haukelicht/social-group-mention-attribute-classification}.%
+}
 The final classifier trained on our data achieved a span-level F1\footnote{The span-level F1 is 0.831 when only considering exact span matches (as per the strict \texttt{seqeval} metric, cf. Licht and Sczepanski 2025).} of 0.927 and a sentence-level F1 of 0.981 in held-out sentences, which is on par with the performance reported by Licht and Sczepanski (2025) despite our broader and more diverse case selection.
 
 Applying the resulting classifier to all sentences in our corpus yielded 209,351 predicted social group mentions.

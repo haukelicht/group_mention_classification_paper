@@ -34,3 +34,12 @@ clean:
 	@rm -fr paper.synctex.gz
 	@rm -f supplement.log supplement.fls supplement.fdb_latexmk supplement.aux
 	@rm -fr supplement.synctex.gz
+
+submission-files:
+	@mkdir -p submission
+	@/opt/homebrew/bin/qpdf paper.pdf --pages . 1 -- submission/titlepage.pdf
+	@cp paper.pdf submission/manuscript.pdf
+	@cp paper.pdf submission/manuscript_anon.pdf
+	@cp supplement.pdf submission/sm.pdf
+	@zip -r submission/source_files.zip *.tex tables figures
+	@echo "✅ Submission files prepared in the 'submission' directory."
