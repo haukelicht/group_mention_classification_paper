@@ -1,0 +1,182 @@
+% ------------------------------------------------------------------
+% Shared preamble for the main manuscript (paper.tex) and the
+% supplementary materials document (supplement.tex). Keeping this in
+% one file ensures both documents typeset identically (fonts, float
+% numbering macros, custom commands, etc.) even though they are
+% compiled separately for submission.
+% ------------------------------------------------------------------
+
+% ------------------------------------------------------------------
+% Encoding, fonts, and typography
+% ------------------------------------------------------------------
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp}
+\else
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+
+\usepackage{lmodern}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{%
+  \usepackage{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath}
+}{}
+
+% ------------------------------------------------------------------
+% Toggle: set to \includetitlepagetrue to omit the separate title
+% page (titlepage.tex) when compiling, e.g. for a blinded submission.
+% ------------------------------------------------------------------
+\newif\ifincludetitlepage
+\includetitlepagetrue
+
+% ------------------------------------------------------------------
+% Page layout and paragraph formatting
+% ------------------------------------------------------------------
+
+\usepackage[
+  lmargin=1in,
+  rmargin=1in,
+  tmargin=1in,
+  bmargin=1in
+]{geometry}
+
+\usepackage{setspace}
+\usepackage{parskip}
+\setlength{\emergencystretch}{3em}
+
+% ------------------------------------------------------------------
+% Mathematics and color
+% ------------------------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+% ------------------------------------------------------------------
+% Tables
+% ------------------------------------------------------------------
+
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{adjustbox}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}p}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}p}
+\newcolumntype{H}{%
+  >{\raggedright\hangindent=0.5em\hangafter=1\arraybackslash}p
+}
+
+% ------------------------------------------------------------------
+% Graphics, captions, and floats
+% ------------------------------------------------------------------
+
+\usepackage{graphicx}
+\usepackage[labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{afterpage}
+\usepackage{pdflscape}
+
+% ------------------------------------------------------------------
+% Title and author formatting
+% ------------------------------------------------------------------
+
+\usepackage{titling}
+\usepackage{authblk}
+
+\setlength{\droptitle}{-2.2cm}
+\posttitle{\par\end{center}\vskip 1.5em}
+% \renewcommand\Authfont{\normalsize}
+\renewcommand\Affilfont{\normalsize}
+
+% ------------------------------------------------------------------
+% Contents and section numbering
+% ------------------------------------------------------------------
+
+\usepackage{titletoc}
+\setcounter{secnumdepth}{2}
+
+% ------------------------------------------------------------------
+% Pandoc/citeproc support
+% ------------------------------------------------------------------
+
+\NewDocumentCommand\citeproctext{}{}
+
+\makeatletter
+\let\@cite@ofmt\@firstofone
+\def\@biblabel#1{}
+\def\@cite#1#2{{#1\if@tempswa, #2\fi}}
+\makeatother
+
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+
+\newenvironment{CSLReferences}[2]
+  {\begin{list}{}{%
+    \setlength{\itemindent}{0pt}
+    \setlength{\leftmargin}{0pt}
+    \setlength{\parsep}{0pt}
+    \ifodd #1
+      \setlength{\leftmargin}{\cslhangindent}
+      \setlength{\itemindent}{-\cslhangindent}
+    \fi
+    \setlength{\itemsep}{#2\baselineskip}}}
+  {\end{list}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}%
+  \setlength{\parskip}{0pt}%
+}
+
+% ------------------------------------------------------------------
+% Links and PDF metadata: load near the end
+% ------------------------------------------------------------------
+
+\usepackage[unicode]{hyperref}
+\usepackage{bookmark}
+
+\hypersetup{
+  pdftitle={Attributes, Abstractions, and Combinations},
+  pdfauthor={Hauke Licht; Leonce Röth},
+  pdfkeywords={
+    social groups,
+    social attributes,
+    computational text analysis,
+    political behavior
+  },
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black,
+  pdfcreator={LaTeX}
+}
+
+% ------------------------------------------------------------------
+% Paper title, authors, and author affiliations
+% ------------------------------------------------------------------
+
+
+\title{%
+    Attributes, Abstractions, and Combinations%
+    \\\Large A New Taxonomy for Studying How Parties Invoke Social Groups%
+}
+
+\author[1]{%
+  Hauke Licht%
+  \thanks{%
+    \href{mailto:Corresponding author: hauke.licht@uibk.ac.at}{Corresponding author: hauke.licht@uibk.ac.at}
+  }
+}
+\author[2]{Leonce Röth}
+
+\affil[1]{Department of Political Science \& Digital Science Center, University of Innsbruck, Austria}
+\affil[2]{Geschwister Scholl Institute of Political Science, LMU Munich, Germany}
+    
+\date{\today}

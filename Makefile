@@ -45,8 +45,10 @@ clean:
 	rm -f _main.log _main.fls _main.fdb_latexmk _main.aux 
 	rm -fr _main.synctex.gz
 	rm -fr _main_files/
-	rm paper.log paper.fls paper.fdb_latexmk paper.aux 
+	rm -f paper.log paper.fls paper.fdb_latexmk paper.aux 
 	rm -fr paper.synctex.gz
+	rm -f supplement.log supplement.fls supplement.fdb_latexmk supplement.aux
+	rm -fr supplement.synctex.gz
 
 # paper: secs render
 
@@ -65,10 +67,24 @@ clean:
 # 	@sed -n '/\\\section{Introduction}/,/\\section{References}/{ /\\section{References}/!p; }' _main.tex > main_content.tex
 # 	@echo "✅ Content extracted to main_content.tex"
 
-paper:
-	@echo "Compiling PDF ..."
+# paper.tex (main manuscript) and supplement.tex (supplementary
+# materials) are separate source files so each can be submitted
+# individually, but they cross-reference each other's figures/tables/
+# sections via xr-hyper. That requires alternating compilation so
+# each document's .aux file reflects the other's latest labels.
+paper: supplement
+	@echo "Compiling main manuscript PDF ..."
 	pdflatex -interaction=nonstopmode paper.tex && pdflatex -interaction=nonstopmode paper.tex
 	@echo "✅ PDF compiled successfully: paper.pdf"
+	@echo "Re-resolving cross-references in supplement.tex against updated paper.aux ..."
+	pdflatex -interaction=nonstopmode supplement.tex
+	@echo "✅ PDF compiled successfully: supplement.pdf"
+
+.PHONY: supplement
+supplement:
+	@echo "Compiling supplementary materials PDF ..."
+	pdflatex -interaction=nonstopmode supplement.tex && pdflatex -interaction=nonstopmode supplement.tex
+	@echo "✅ PDF compiled successfully: supplement.pdf"
 
 PAGE ?= 47
 separate-paper:
