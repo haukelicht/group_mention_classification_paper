@@ -18,9 +18,11 @@ This repository contains the replication materials for the paper "Attributes, Ab
 }
 ```
 
-Corresponding author: Hauke Licht (hauke.licht@uibk.ac.at)
+Pre-trained classification models in the Hugging Face 🤗 model hub: [_social group mention attribute classification_ collection](https://huggingface.co/collections/haukelicht/social-group-mention-attribute-classification)
 
 Access the **pre-print** on OSF: <https://osf.io/g7htx/files/3qdzc>
+
+Corresponding author: Hauke Licht (hauke.licht@uibk.ac.at)
 
 ## Repository structure
 
