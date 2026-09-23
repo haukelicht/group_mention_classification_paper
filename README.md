@@ -1,7 +1,7 @@
 
 # Replication materials for "Attributes, Abstractions, and Combinations: A New Taxonomy for Studying How Parties Invoke Social Groups"
 
-This repository contains the replication materials for the paper "Attributes, Abstractions, and Combinations: A New Taxonomy for Studying How Parties Invoke Social Groups" by Hauke Licht and Leonce Röth:
+This repository contains the replication materials for the paper "Attributes, Abstractions, and Combinations: A New Taxonomy for Studying How Parties Invoke Social Groups" by [Hauke Licht](https://haukelicht.github.io/) and [Leonce Röth](https://scholar.google.com/citations?user=IEV3CNoAAAAJ):
 
 ```bibtex
 @article{licht_roeth_2026,
@@ -20,6 +20,8 @@ This repository contains the replication materials for the paper "Attributes, Ab
 
 Corresponding author: Hauke Licht (hauke.licht@uibk.ac.at)
 
+Access the **pre-print** on OSF: <https://osf.io/g7htx/files/3qdzc>
+
 ## Repository structure
 
 The repository is organized as follows:
@@ -27,6 +29,8 @@ The repository is organized as follows:
 - `code/`: Contains all scripts for data classification and analyses.
 - `data/`: Contains the raw and processed data used in the analyses.
 - `src/`: Contains the Python source code modules for the project.
+- `results/`: Contains the output of the analyses, including tables, figures, and other intermediate result files.
+- `manuscript/`: Contains the manuscript and supplementary materials (TeX source and PDF files).
 - `requirements.txt`: Lists all Python dependencies required for the project.
 - `README.md`: This file, providing an overview and instructions for reproducing the analyses.
 
