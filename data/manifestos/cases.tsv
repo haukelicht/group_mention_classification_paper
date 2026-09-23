@@ -1,0 +1,401 @@
+country_iso3c	country_name	election_date	manifesto_id	party_id	party_abbrev	party_name
+AUS	Australia	2004-10-09	63110_200410	63110		Australian Greens
+AUS	Australia	2007-11-24	63110_200711	63110		Australian Greens
+AUS	Australia	2010-08-21	63110_201008	63110		Australian Greens
+AUS	Australia	2013-09-07	63110_201309	63110		Australian Greens
+AUS	Australia	2016-07-02	63110_201607	63110		Australian Greens
+AUT	Austria	1986-11-23	42110_198611	42110	GA	Green Alternative
+AUT	Austria	1986-11-23	42420_198611	42420	FPÖ	Austrian Freedom Party
+AUT	Austria	1990-10-07	42110_199010	42110	GA	Green Alternative
+AUT	Austria	1990-10-07	42420_199010	42420	FPÖ	Austrian Freedom Party
+AUT	Austria	1994-10-09	42110_199410	42110	GRÜNE	The Greens
+AUT	Austria	1994-10-09	42420_199410	42420	FPÖ	Austrian Freedom Party
+AUT	Austria	1995-12-17	42110_199512	42110	GRÜNE	The Greens
+AUT	Austria	1995-12-17	42420_199512	42420		Freedom Movement
+AUT	Austria	1999-10-03	42110_199910	42110	GRÜNE	The Greens
+AUT	Austria	1999-10-03	42420_199910	42420	FPÖ	Austrian Freedom Party
+AUT	Austria	2002-11-24	42110_200211	42110	GRÜNE	The Greens
+AUT	Austria	2002-11-24	42420_200211	42420	FPÖ	Austrian Freedom Party
+AUT	Austria	2006-10-01	42110_200610	42110	GRÜNE	The Greens
+AUT	Austria	2006-10-01	42420_200610	42420	FPÖ	Austrian Freedom Party
+AUT	Austria	2006-10-01	42710_200610	42710	BZÖ	Alliance for the Future of Austria
+AUT	Austria	2008-09-28	42110_200809	42110	GRÜNE	The Greens
+AUT	Austria	2008-09-28	42420_200809	42420	FPÖ	Austrian Freedom Party
+AUT	Austria	2008-09-28	42710_200809	42710	BZÖ	Alliance for the Future of Austria
+AUT	Austria	2013-09-29	42110_201309	42110	GRÜNE	The Greens
+AUT	Austria	2013-09-29	42420_201309	42420	FPÖ	Austrian Freedom Party
+AUT	Austria	2017-10-15	42110_201710	42110	GRÜNE	The Greens
+AUT	Austria	2017-10-15	42120_201710	42120	PILZ	Peter Pilz List
+AUT	Austria	2017-10-15	42420_201710	42420	FPÖ	Austrian Freedom Party
+AUT	Austria	2019-09-29	42110_201909	42110	GRÜNE	The Greens
+AUT	Austria	2019-09-29	42420_201909	42420	FPÖ	Austrian Freedom Party
+BEL	Belgium	1978-12-17	21914_197812	21914	VB	Flemish Bloc
+BEL	Belgium	1981-11-08	21111_198111	21111	ECOLO	Ecologists
+BEL	Belgium	1981-11-08	21112_198111	21112	AGALEV	Live Differently
+BEL	Belgium	1981-11-08	21914_198111	21914	VB	Flemish Bloc
+BEL	Belgium	1985-10-13	21111_198510	21111	ECOLO	Ecologists
+BEL	Belgium	1985-10-13	21112_198510	21112	AGALEV	Live Differently
+BEL	Belgium	1985-10-13	21914_198510	21914	VB	Flemish Bloc
+BEL	Belgium	1987-12-13	21111_198712	21111	ECOLO	Ecologists
+BEL	Belgium	1987-12-13	21112_198712	21112	AGALEV	Live Differently
+BEL	Belgium	1987-12-13	21914_198712	21914	VB	Flemish Bloc
+BEL	Belgium	1991-11-24	21111_199111	21111	ECOLO	Ecologists
+BEL	Belgium	1991-11-24	21112_199111	21112	AGALEV	Live Differently
+BEL	Belgium	1991-11-24	21914_199111	21914	VB	Flemish Bloc
+BEL	Belgium	1995-05-21	21111_199505	21111	ECOLO	Ecologists
+BEL	Belgium	1995-05-21	21112_199505	21112	AGALEV	Live Differently
+BEL	Belgium	1995-05-21	21914_199505	21914	VB	Flemish Bloc
+BEL	Belgium	1999-06-13	21111_199906	21111	ECOLO	Ecologists
+BEL	Belgium	1999-06-13	21112_199906	21112	AGALEV	Live Differently
+BEL	Belgium	1999-06-13	21914_199906	21914	VB	Flemish Bloc
+BEL	Belgium	2003-05-18	21111_200305	21111	ECOLO	Ecologists
+BEL	Belgium	2003-05-18	21112_200305	21112	AGALEV	Live Differently
+BEL	Belgium	2003-05-18	21914_200305	21914	VB	Flemish Bloc
+BEL	Belgium	2007-06-10	21111_200706	21111	ECOLO	Ecologists
+BEL	Belgium	2007-06-10	21112_200706	21112	groen!	Green!
+BEL	Belgium	2010-06-13	21111_201006	21111	ECOLO	Ecologists
+BEL	Belgium	2010-06-13	21112_201006	21112	groen!	Green!
+BEL	Belgium	2014-05-25	21112_201405	21112	groen!	Green!
+BEL	Belgium	2019-05-26	21112_201905	21112	groen!	Green!
+BGR	Bulgaria	1994-12-18	80110_199412	80110	PKE	Political Club ‘Ekoglasnost'
+BGR	Bulgaria	1997-04-19	80110_199704	80110	PKE	Political Club ‘Ekoglasnost'
+BGR	Bulgaria	2005-06-25	80710_200506	80710	ATAKA	National Union Attack
+BGR	Bulgaria	2009-07-05	80620_200907	80620	RZS	Order, Law and Justice
+BGR	Bulgaria	2009-07-05	80710_200907	80710	ATAKA	National Union Attack
+BGR	Bulgaria	2013-05-12	80710_201305	80710	ATAKA	National Union Attack
+BGR	Bulgaria	2014-10-05	80710_201410	80710	ATAKA	National Union Attack
+BGR	Bulgaria	2017-03-26	80640_201703	80640		Will
+CAN	Canada	2008-10-14	62110_200810	62110		Green Party
+CAN	Canada	2011-05-02	62110_201105	62110		Green Party
+CAN	Canada	2015-10-19	62110_201510	62110		Green Party
+HRV	Croatia	1990-04-22	81111_199004	81111	SZH	Green Alliance of Croatia
+HRV	Croatia	1990-04-22	81112_199004	81112	ZAS	Green Action of Split
+HRV	Croatia	2007-11-25	81952_200711	81952	HDSSB	Croatian Democratic Assembly of Slavonia and Baranja
+HRV	Croatia	2011-12-04	81952_201112	81952	HDSSB	Croatian Democratic Assembly of Slavonia and Baranja
+HRV	Croatia	2015-11-08	81952_201511	81952	HDSSB	Croatian Democratic Assembly of Slavonia and Baranja
+CYP	Cyprus	2006-05-21	55110_200605	55110		Ecological and Environmental Movement
+CYP	Cyprus	2011-05-22	55110_201105	55110		Ecological and Environmental Movement
+CYP	Cyprus	2016-05-22	55110_201605	55110		Movement of Ecologists - Citizens' Cooperation
+CZE	Czech Republic	1992-06-06	82710_199206	82710	SPR-RSČ	Association for the Republic – Republican Party of Czechoslovakia
+CZE	Czech Republic	1996-05-31	82710_199605	82710	SPR-RSČ	Association for the Republic – Republican Party of Czechoslovakia
+CZE	Czech Republic	1998-06-19	82710_199806	82710	SPR-RSČ	Association for the Republic – Republican Party of Czechoslovakia
+CZE	Czech Republic	2002-06-14	82710_200206	82710	SPR-RSČ	Association for the Republic – Republican Party of Czechoslovakia
+CZE	Czech Republic	2006-06-03	82110_200606	82110	SZ	Green Party
+CZE	Czech Republic	2010-05-29	82110_201005	82110	SZ	Green Party
+CZE	Czech Republic	2013-10-26	82110_201310	82110	SZ	Green Party
+CZE	Czech Republic	2013-10-26	82720_201310	82720	Úsvit	Tomio Okamura's Dawn of Direct Democracy
+CZE	Czech Republic	2017-10-21	82721_201710	82721	SPD	Freedom and Direct Democracy
+DNK	Denmark	1973-12-04	13951_197312	13951	FP	Progress Party
+DNK	Denmark	1975-01-09	13951_197501	13951	FP	Progress Party
+DNK	Denmark	1977-02-15	13951_197702	13951	FP	Progress Party
+DNK	Denmark	1979-10-23	13951_197910	13951	FP	Progress Party
+DNK	Denmark	1981-12-08	13230_198112	13230	SF	Socialist People’s Party
+DNK	Denmark	1981-12-08	13951_198112	13951	FP	Progress Party
+DNK	Denmark	1984-01-10	13230_198401	13230	SF	Socialist People’s Party
+DNK	Denmark	1984-01-10	13951_198401	13951	FP	Progress Party
+DNK	Denmark	1987-09-08	13230_198709	13230	SF	Socialist People’s Party
+DNK	Denmark	1987-09-08	13951_198709	13951	FP	Progress Party
+DNK	Denmark	1988-05-10	13230_198805	13230	SF	Socialist People’s Party
+DNK	Denmark	1988-05-10	13951_198805	13951	FP	Progress Party
+DNK	Denmark	1990-12-12	13230_199012	13230	SF	Socialist People’s Party
+DNK	Denmark	1990-12-12	13951_199012	13951	FP	Progress Party
+DNK	Denmark	1994-09-21	13229_199409	13229	EL	Red-Green Unity List
+DNK	Denmark	1994-09-21	13230_199409	13230	SF	Socialist People’s Party
+DNK	Denmark	1994-09-21	13951_199409	13951	FP	Progress Party
+DNK	Denmark	1998-03-11	13229_199803	13229	EL	Red-Green Unity List
+DNK	Denmark	1998-03-11	13230_199803	13230	SF	Socialist People’s Party
+DNK	Denmark	1998-03-11	13720_199803	13720	DF	Danish People’s Party
+DNK	Denmark	1998-03-11	13951_199803	13951	FP	Progress Party
+DNK	Denmark	2001-11-20	13229_200111	13229	EL	Red-Green Unity List
+DNK	Denmark	2001-11-20	13230_200111	13230	SF	Socialist People’s Party
+DNK	Denmark	2001-11-20	13720_200111	13720	DF	Danish People’s Party
+DNK	Denmark	2005-02-08	13229_200502	13229	EL	Red-Green Unity List
+DNK	Denmark	2005-02-08	13230_200502	13230	SF	Socialist People’s Party
+DNK	Denmark	2005-02-08	13720_200502	13720	DF	Danish People’s Party
+DNK	Denmark	2007-11-13	13229_200711	13229	EL	Red-Green Unity List
+DNK	Denmark	2007-11-13	13230_200711	13230	SF	Socialist People’s Party
+DNK	Denmark	2007-11-13	13720_200711	13720	DF	Danish People’s Party
+DNK	Denmark	2011-09-15	13229_201109	13229	EL	Red-Green Unity List
+DNK	Denmark	2011-09-15	13230_201109	13230	SF	Socialist People’s Party
+DNK	Denmark	2011-09-15	13720_201109	13720	DF	Danish People’s Party
+DNK	Denmark	2015-06-18	13229_201506	13229	EL	Red-Green Unity List
+DNK	Denmark	2015-06-18	13230_201506	13230	SF	Socialist People’s Party
+DNK	Denmark	2015-06-18	13720_201506	13720	DF	Danish People’s Party
+DNK	Denmark	2019-06-05	13229_201906	13229	EL	Red-Green Unity List
+DNK	Denmark	2019-06-05	13230_201906	13230	SF	Socialist People’s Party
+DNK	Denmark	2019-06-05	13720_201906	13720	DF	Danish People’s Party
+DNK	Denmark	2019-06-05	13730_201906	13730		The New Right
+EST	Estonia	1992-09-20	83712_199209	83712		Electoral Union ‘Estonian Citizen'
+EST	Estonia	2003-03-02	83612_200303	83612	ERL	Estonian People’s Union
+EST	Estonia	2007-03-04	83110_200703	83110	EER	Estonian Greens
+EST	Estonia	2007-03-04	83612_200703	83612	ERL	Estonian People’s Union
+EST	Estonia	2011-03-06	83110_201103	83110	EER	Estonian Greens
+EST	Estonia	2011-03-06	83612_201103	83612	ERL	Estonian People’s Union
+FIN	Finland	1966-03-21	14820_196603	14820	SPP	Finnish Smallholders’ Party
+FIN	Finland	1970-03-16	14820_197003	14820	SMP	Finnish Rural Party
+FIN	Finland	1972-01-03	14820_197201	14820	SMP	Finnish Rural Party
+FIN	Finland	1975-09-22	14820_197509	14820	SMP	Finnish Rural Party
+FIN	Finland	1979-03-13	14820_197903	14820	SMP	Finnish Rural Party
+FIN	Finland	1983-03-21	14110_198303	14110	VL	Green Union
+FIN	Finland	1983-03-21	14820_198303	14820	SMP	Finnish Rural Party
+FIN	Finland	1987-03-16	14110_198703	14110	VL	Green Union
+FIN	Finland	1987-03-16	14820_198703	14820	SMP	Finnish Rural Party
+FIN	Finland	1991-03-17	14110_199103	14110	VL	Green Union
+FIN	Finland	1991-03-17	14820_199103	14820	SMP	Finnish Rural Party
+FIN	Finland	1995-03-19	14110_199503	14110	VL	Green Union
+FIN	Finland	1995-03-19	14820_199503	14820	SMP	Finnish Rural Party
+FIN	Finland	1999-03-21	14110_199903	14110	VL	Green Union
+FIN	Finland	1999-03-21	14820_199903	14820	PS	True Finns
+FIN	Finland	2003-03-16	14110_200303	14110	VL	Green Union
+FIN	Finland	2003-03-16	14820_200303	14820	PS	True Finns
+FIN	Finland	2007-03-18	14110_200703	14110	VL	Green Union
+FIN	Finland	2007-03-18	14820_200703	14820	PS	True Finns
+FIN	Finland	2011-04-17	14110_201104	14110	VL	Green Union
+FIN	Finland	2011-04-17	14820_201104	14820	PS	True Finns
+FIN	Finland	2015-04-19	14110_201504	14110	VL	Green Union
+FIN	Finland	2015-04-19	14820_201504	14820	PS	True Finns
+FIN	Finland	2019-04-14	14110_201904	14110	VL	Green Union
+FIN	Finland	2019-04-14	14820_201904	14820	PS	True Finns
+FRA	France	1986-03-16	31720_198603	31720	FN	National Front
+FRA	France	1988-06-05	31720_198806	31720	FN	National Front
+FRA	France	1993-03-21	31110_199303	31110	Les Verts	The Greens
+FRA	France	1993-03-21	31720_199303	31720	FN	National Front
+FRA	France	1997-05-25	31110_199705	31110	Les Verts	The Greens
+FRA	France	1997-05-25	31111_199705	31111	GE	Ecology Generation
+FRA	France	1997-05-25	31720_199705	31720	FN	National Front
+FRA	France	2002-06-09	31110_200206	31110	Les Verts	The Greens
+FRA	France	2002-06-09	31720_200206	31720	FN	National Front
+FRA	France	2007-06-10	31110_200706	31110	Les Verts	The Greens
+FRA	France	2007-06-10	31720_200706	31720	FN	National Front
+FRA	France	2012-06-10	31110_201206	31110	EÉLV	Europe Ecology - The Greens
+FRA	France	2012-06-10	31720_201206	31720	FN	National Front
+FRA	France	2017-06-11	31110_201706	31110	EÉLV	Europe Ecology - The Greens
+FRA	France	2017-06-11	31720_201706	31720	FN	National Front
+GEO	Georgia	1992-10-11	84110_199210	84110	Greens	Green Party of Georgia
+NA	German Democratic Republic	1990-03-18	85111_199003	85111	Grüne-UFV	Green Party-Independent Women's League
+NA	German Democratic Republic	1990-03-18	85112_199003	85112	B 90	Alliance 90
+DEU	Germany	1983-03-06	41111_198303	41111		The Greens
+DEU	Germany	1987-01-25	41111_198701	41111		The Greens
+DEU	Germany	1990-12-02	41112_199012	41112	Greens/90	Greens/Alliance‘90
+DEU	Germany	1994-10-16	41113_199410	41113	90/Greens	Alliance‘90/Greens
+DEU	Germany	1998-09-27	41113_199809	41113	90/Greens	Alliance‘90/Greens
+DEU	Germany	2002-09-22	41113_200209	41113	90/Greens	Alliance‘90/Greens
+DEU	Germany	2005-09-18	41113_200509	41113	90/Greens	Alliance‘90/Greens
+DEU	Germany	2009-09-27	41113_200909	41113	90/Greens	Alliance‘90/Greens
+DEU	Germany	2013-09-22	41113_201309	41113	90/Greens	Alliance‘90/Greens
+DEU	Germany	2013-09-22	41953_201309	41953	AfD	Alternative for Germany
+DEU	Germany	2017-09-24	41113_201709	41113	90/Greens	Alliance‘90/Greens
+DEU	Germany	2017-09-24	41953_201709	41953	AfD	Alternative for Germany
+DEU	Germany	2021-09-26	41113_202109	41113	90/Greens	Alliance‘90/Greens
+DEU	Germany	2021-09-26	41953_202109	41953	AfD	Alternative for Germany
+GRC	Greece	1993-10-10	34512_199310	34512	Pola	Political Spring
+GRC	Greece	1996-09-22	34512_199609	34512	Pola	Political Spring
+GRC	Greece	2007-09-16	34710_200709	34710	LAOS	Popular Orthodox Rally
+GRC	Greece	2009-10-04	34710_200910	34710	LAOS	Popular Orthodox Rally
+GRC	Greece	2012-05-06	34710_201205	34710	LAOS	Popular Orthodox Rally
+GRC	Greece	2012-05-06	34730_201205	34730	ANEL	Independent Greeks
+GRC	Greece	2012-06-17	34730_201206	34730	ANEL	Independent Greeks
+GRC	Greece	2015-01-25	34730_201501	34730	ANEL	Independent Greeks
+GRC	Greece	2015-09-20	34730_201509	34730	ANEL	Independent Greeks
+HUN	Hungary	1998-05-10	86421_199805	86421	FiDeSz-MPP-MDF	Federation of Young Democrats - Hungarian Civic Party - Hungarian Democratic Forum- Alliance
+HUN	Hungary	1998-05-10	86620_199805	86620	MIÉP	Hungarian Justice and Life Party
+HUN	Hungary	2002-04-07	86421_200204	86421	FiDeSz-MPP-MDF	Federation of Young Democrats - Hungarian Civic Party - Hungarian Democratic Forum- Alliance
+HUN	Hungary	2006-04-09	86421_200604	86421	FiDeSz-MPSz-KDNP	Alliance of Federation of Young Democrats - Hungarian Civic Union - Christian Democratic People's Party
+HUN	Hungary	2010-04-11	86110_201004	86110	LMP	Politics Can Be Different
+HUN	Hungary	2010-04-11	86421_201004	86421	FiDeSz-MPSz-KDNP	Alliance of Federation of Young Democrats - Hungarian Civic Union - Christian Democratic People's Party
+HUN	Hungary	2010-04-11	86710_201004	86710	Jobbik	Movement for a Better Hungary
+HUN	Hungary	2014-04-06	86110_201404	86110	LMP	Politics Can Be Different
+HUN	Hungary	2014-04-06	86421_201404	86421	FiDeSz-MPSz-KDNP	Alliance of Federation of Young Democrats - Hungarian Civic Union - Christian Democratic People's Party
+HUN	Hungary	2014-04-06	86710_201404	86710	Jobbik	Movement for a Better Hungary
+HUN	Hungary	2018-04-08	86110_201804	86110	LMP	Politics Can Be Different
+HUN	Hungary	2018-04-08	86421_201804	86421	FiDeSz-KDNP	Alliance of Federation of Young Democrats - Christian Democratic People's Party
+HUN	Hungary	2018-04-08	86710_201804	86710	Jobbik	Movement for a Better Hungary
+ISL	Iceland	1999-05-08	15111_199905	15111	VGF	Left Green Movement
+ISL	Iceland	2003-05-10	15111_200305	15111	VGF	Left Green Movement
+ISL	Iceland	2007-05-12	15111_200705	15111	VGF	Left Green Movement
+ISL	Iceland	2009-04-25	15111_200904	15111	VGF	Left Green Movement
+ISL	Iceland	2013-04-27	15111_201304	15111	VGF	Left Green Movement
+ISL	Iceland	2016-10-29	15111_201610	15111	VGF	Left Green Movement
+ISL	Iceland	2017-10-28	15111_201710	15111	VGF	Left Green Movement
+IRL	Ireland	1989-06-15	53110_198906	53110	Greens	Green Party
+IRL	Ireland	1992-11-25	53110_199211	53110	Greens	Green Party
+IRL	Ireland	1997-06-06	53110_199706	53110	Greens	Green Party
+IRL	Ireland	2002-05-17	53110_200205	53110	Greens	Green Party
+IRL	Ireland	2007-05-24	53110_200705	53110	Greens	Green Party
+IRL	Ireland	2011-02-25	53110_201102	53110	Greens	Green Party
+IRL	Ireland	2016-02-26	53110_201602	53110	Greens	Green Party
+ITA	Italy	1987-06-14	32110_198706	32110	FdV	Green Federation
+ITA	Italy	1992-04-06	32110_199204	32110	FdV	Green Federation
+ITA	Italy	1992-04-06	32720_199204	32720	LN	Northern League
+ITA	Italy	1994-03-28	32110_199403	32110	FdV	Green Federation
+ITA	Italy	1994-03-28	32720_199403	32720	LN	Northern League
+ITA	Italy	1996-04-21	32110_199604	32110	FdV	Green Federation
+ITA	Italy	1996-04-21	32720_199604	32720	LN	Northern League
+ITA	Italy	2001-05-13	32111_200105	32111		The Girasole (‘Sunflower')
+ITA	Italy	2001-05-13	32720_200105	32720	LN	Northern League
+ITA	Italy	2006-04-10	32110_200604	32110	FdV	Green Federation
+ITA	Italy	2006-04-10	32720_200604	32720	LN	Northern League
+ITA	Italy	2008-04-13	32720_200804	32720	LN	Northern League
+ITA	Italy	2013-02-24	32630_201302	32630	FDI-CDN	Brothers of Italy - National Centre-right
+ITA	Italy	2013-02-24	32720_201302	32720	LN	Northern League
+ITA	Italy	2018-03-04	32630_201803	32630	FDI	Brothers of Italy
+ITA	Italy	2018-03-04	32720_201803	32720	L	League
+JPN	Japan	2012-12-16	71110_201212	71110		Tomorrow Party of Japan
+JPN	Japan	2014-12-14	71111_201412	71111	PLP	People's Life Party
+LVA	Latvia	2010-10-02	87071_201010	87071		National Alliance ‘All For Latvia!' – ‘For Fatherland and Freedom - Latvian National Independence Movement'
+LVA	Latvia	2011-09-17	87071_201109	87071		National Alliance ‘All For Latvia!' – ‘For Fatherland and Freedom - Latvian National Independence Movement'
+LVA	Latvia	2014-10-04	87071_201410	87071		National Alliance ‘All For Latvia!' – ‘For Fatherland and Freedom - Latvian National Independence Movement'
+LVA	Latvia	2018-10-06	87071_201810	87071		National Alliance ‘All For Latvia!' – ‘For Fatherland and Freedom - Latvian National Independence Movement'
+LUX	Luxembourg	1984-06-17	23112_198406	23112	GAP	Green Alternative
+LUX	Luxembourg	1989-06-18	23111_198906	23111	GLEI	Green Left Ecological Initiative
+LUX	Luxembourg	1989-06-18	23112_198906	23112	GAP	Green Alternative
+LUX	Luxembourg	1994-06-12	23113_199406	23113	GLEI-GAP	Green Left Ecological Initiative - Green Alternative
+LUX	Luxembourg	1999-06-13	23113_199906	23113	GLEI-GAP	Green Left Ecological Initiative - Green Alternative
+LUX	Luxembourg	2004-06-13	23113_200406	23113		The Greens
+LUX	Luxembourg	2009-06-07	23113_200906	23113		The Greens
+LUX	Luxembourg	2013-10-20	23113_201310	23113		The Greens
+MEX	Mexico	1997-07-06	171101_199707	171101	PVEM	Mexican Green Ecologist Party
+MEX	Mexico	2003-06-06	171101_200306	171101	PVEM	Mexican Green Ecologist Party
+MEX	Mexico	2009-07-05	171101_200907	171101	PVEM	Mexican Green Ecologist Party
+MEX	Mexico	2012-07-01	171101_201207	171101	PVEM	Mexican Green Ecologist Party
+MEX	Mexico	2015-06-07	171101_201506	171101	PVEM	Mexican Green Ecologist Party
+MEX	Mexico	2018-07-01	171101_201807	171101	PVEM	Mexican Green Ecologist Party
+NLD	Netherlands	1989-09-06	22110_198909	22110	GL	Green Left
+NLD	Netherlands	1989-09-06	22711_198909	22711		Centre Democrats
+NLD	Netherlands	1994-05-03	22110_199405	22110	GL	Green Left
+NLD	Netherlands	1994-05-03	22711_199405	22711		Centre Democrats
+NLD	Netherlands	1998-05-06	22110_199805	22110	GL	Green Left
+NLD	Netherlands	2002-05-15	22110_200205	22110	GL	Green Left
+NLD	Netherlands	2002-05-15	22720_200205	22720	LPF	List Pim Fortuyn
+NLD	Netherlands	2003-01-22	22110_200301	22110	GL	Green Left
+NLD	Netherlands	2003-01-22	22720_200301	22720	LPF	List Pim Fortuyn
+NLD	Netherlands	2006-11-22	22110_200611	22110	GL	Green Left
+NLD	Netherlands	2006-11-22	22722_200611	22722	PVV	Party of Freedom
+NLD	Netherlands	2010-06-09	22110_201006	22110	GL	Green Left
+NLD	Netherlands	2010-06-09	22722_201006	22722	PVV	Party of Freedom
+NLD	Netherlands	2012-09-12	22110_201209	22110	GL	Green Left
+NLD	Netherlands	2012-09-12	22722_201209	22722	PVV	Party of Freedom
+NLD	Netherlands	2017-03-15	22110_201703	22110	GL	Green Left
+NLD	Netherlands	2017-03-15	22722_201703	22722	PVV	Party of Freedom
+NLD	Netherlands	2017-03-15	22730_201703	22730	FvD	Forum for Democracy
+NZL	New Zealand	1999-11-27	64110_199911	64110	Greens	Green Party of Aotearoa New Zealand
+NZL	New Zealand	2002-07-27	64110_200207	64110	Greens	Green Party of Aotearoa New Zealand
+NZL	New Zealand	2005-09-17	64110_200509	64110	Greens	Green Party of Aotearoa New Zealand
+NZL	New Zealand	2008-11-08	64110_200811	64110	Greens	Green Party of Aotearoa New Zealand
+NZL	New Zealand	2011-11-26	64110_201111	64110	Greens	Green Party of Aotearoa New Zealand
+NZL	New Zealand	2014-09-20	64110_201409	64110	Greens	Green Party of Aotearoa New Zealand
+NZL	New Zealand	2017-09-23	64110_201709	64110	Greens	Green Party of Aotearoa New Zealand
+NZL	New Zealand	2020-10-17	64110_202010	64110	Greens	Green Party of Aotearoa New Zealand
+NOR	Norway	1985-09-08	12951_198509	12951	FrP	Progress Party
+NOR	Norway	1989-09-11	12951_198909	12951	FrP	Progress Party
+NOR	Norway	1993-09-13	12951_199309	12951	FrP	Progress Party
+NOR	Norway	1997-09-16	12951_199709	12951	FrP	Progress Party
+NOR	Norway	2001-09-10	12951_200109	12951	FrP	Progress Party
+NOR	Norway	2005-09-12	12951_200509	12951	FrP	Progress Party
+NOR	Norway	2009-09-14	12951_200909	12951	FrP	Progress Party
+NOR	Norway	2013-09-09	12110_201309	12110	MDG	Green Party
+NOR	Norway	2013-09-09	12951_201309	12951	FrP	Progress Party
+NOR	Norway	2017-09-11	12110_201709	12110	MDG	Green Party
+NOR	Norway	2017-09-11	12951_201709	12951	FrP	Progress Party
+POL	Poland	1991-10-27	92712_199110	92712	PX	Party X
+POL	Poland	2001-09-23	92436_200109	92436	PiS	Law and Justice
+POL	Poland	2001-09-23	92713_200109	92713	LPR	League of Polish Families
+POL	Poland	2005-09-25	92436_200509	92436	PiS	Law and Justice
+POL	Poland	2005-09-25	92713_200509	92713	LPR	League of Polish Families
+POL	Poland	2007-10-21	92436_200710	92436	PiS	Law and Justice
+POL	Poland	2011-10-09	92436_201110	92436	PiS	Law and Justice
+POL	Poland	2015-10-25	92436_201510	92436	PiS	Law and Justice
+POL	Poland	2019-10-13	92436_201910	92436	PiS	Law and Justice
+PRT	Portugal	1983-04-25	35110_198304	35110	PEV	Ecologist Party ‘The Greens'
+PRT	Portugal	1985-10-06	35110_198510	35110	PEV	Ecologist Party ‘The Greens'
+PRT	Portugal	1987-07-19	35110_198707	35110	PEV	Ecologist Party ‘The Greens'
+PRT	Portugal	2002-03-17	35110_200203	35110	PEV	Ecologist Party ‘The Greens'
+PRT	Portugal	2005-02-20	35110_200502	35110	PEV	Ecologist Party ‘The Greens'
+PRT	Portugal	2009-09-27	35110_200909	35110	PEV	Ecologist Party ‘The Greens'
+PRT	Portugal	2011-06-05	35110_201106	35110	PEV	Ecologist Party ‘The Greens'
+PRT	Portugal	2015-10-04	35110_201510	35110	PEV	Ecologist Party ‘The Greens'
+PRT	Portugal	2015-10-04	35120_201510	35120	PAN	People-Animals-Nature
+PRT	Portugal	2019-10-06	35110_201910	35110	PEV	Ecologist Party ‘The Greens'
+PRT	Portugal	2019-10-06	35120_201910	35120	PAN	People-Animals-Nature
+PRT	Portugal	2019-10-06	35130_201910	35130	L	Free
+ROU	Romania	1990-05-20	93111_199005	93111	MER	Ecological Movement of Romania
+ROU	Romania	1990-05-20	93112_199005	93112	PER	Romanian Ecological Party
+ROU	Romania	1990-05-20	93711_199005	93711	PUNR	Romanian National Unity Party
+ROU	Romania	1992-09-27	93711_199209	93711	PUNR	Romanian National Unity Party
+ROU	Romania	1992-09-27	93712_199209	93712	PRM	Greater Romania Party
+ROU	Romania	1996-11-03	93711_199611	93711	PUNR	Romanian National Unity Party
+ROU	Romania	1996-11-03	93712_199611	93712	PRM	Greater Romania Party
+ROU	Romania	2000-11-26	93712_200011	93712	PRM	Greater Romania Party
+ROU	Romania	2004-11-28	93712_200411	93712	PRM	Greater Romania Party
+SRB	Serbia	2016-04-24	95100_201604	95100	ZS	Green Party
+SVK	Slovakia	1990-06-09	96111_199006	96111	SZ	Green Party of Slovakia
+SVK	Slovakia	1990-06-09	96710_199006	96710	SNS	Slovak National Party
+SVK	Slovakia	1992-06-06	96710_199206	96710	SNS	Slovak National Party
+SVK	Slovakia	1994-09-30	96710_199409	96710	SNS	Slovak National Party
+SVK	Slovakia	1998-09-26	96710_199809	96710	SNS	Slovak National Party
+SVK	Slovakia	2006-06-17	96710_200606	96710	SNS	Slovak National Party
+SVK	Slovakia	2010-06-12	96710_201006	96710	SNS	Slovak National Party
+SVK	Slovakia	2012-03-10	96710_201203	96710	SNS	Slovak National Party
+SVK	Slovakia	2016-03-05	96710_201603	96710	SNS	Slovak National Party
+SVK	Slovakia	2016-03-05	96725_201603	96725		We Are Family
+SVN	Slovenia	1990-04-08	97110_199004	97110	ZS	Greens of Slovenia
+SVN	Slovenia	1992-12-06	97110_199212	97110	ZS	Greens of Slovenia
+SVN	Slovenia	1992-12-06	97710_199212	97710	SNS	Slovenian National Party
+SVN	Slovenia	1996-11-10	97710_199611	97710	SNS	Slovenian National Party
+SVN	Slovenia	2000-10-15	97710_200010	97710	SNS	Slovenian National Party
+SVN	Slovenia	2004-10-03	97330_200410	97330	SDS	Slovenian Democratic Party
+SVN	Slovenia	2004-10-03	97710_200410	97710	SNS	Slovenian National Party
+SVN	Slovenia	2008-09-21	97330_200809	97330	SDS	Slovenian Democratic Party
+SVN	Slovenia	2008-09-21	97710_200809	97710	SNS	Slovenian National Party
+SVN	Slovenia	2011-12-04	97330_201112	97330	SDS	Slovenian Democratic Party
+SVN	Slovenia	2011-12-04	97710_201112	97710	SNS	Slovenian National Party
+SVN	Slovenia	2014-07-13	97330_201407	97330	SDS	Slovenian Democratic Party
+SVN	Slovenia	2018-06-03	97330_201806	97330	SDS	Slovenian Democratic Party
+SVN	Slovenia	2018-06-03	97710_201806	97710	SNS	Slovenian National Party
+SWE	Sweden	1988-09-18	11110_198809	11110	MP	Green Ecology Party
+SWE	Sweden	1991-09-15	11110_199109	11110	MP	Green Ecology Party
+SWE	Sweden	1991-09-15	11951_199109	11951	NyD	New Democracy
+SWE	Sweden	1994-09-18	11110_199409	11110	MP	Green Ecology Party
+SWE	Sweden	1998-09-21	11110_199809	11110	MP	Green Ecology Party
+SWE	Sweden	2002-09-15	11110_200209	11110	MP	Green Ecology Party
+SWE	Sweden	2006-09-17	11110_200609	11110	MP	Green Ecology Party
+SWE	Sweden	2010-09-19	11110_201009	11110	MP	Green Ecology Party
+SWE	Sweden	2010-09-19	11710_201009	11710	SD	Sweden Democrats
+SWE	Sweden	2014-09-14	11110_201409	11110	MP	Green Ecology Party
+SWE	Sweden	2014-09-14	11710_201409	11710	SD	Sweden Democrats
+SWE	Sweden	2018-09-09	11110_201809	11110	MP	Green Ecology Party
+SWE	Sweden	2018-09-09	11710_201809	11710	SD	Sweden Democrats
+CHE	Switzerland	1979-10-21	43110_197910	43110		Greens
+CHE	Switzerland	1983-10-23	43110_198310	43110	GPS/FPE	Federation of Green Parties
+CHE	Switzerland	1987-10-18	43110_198710	43110	GPS/PES	Green Party of Switzerland
+CHE	Switzerland	1987-10-18	43951_198710	43951		Swiss Motorists’ Party
+CHE	Switzerland	1991-10-20	43110_199110	43110	GPS/PES	Green Party of Switzerland
+CHE	Switzerland	1991-10-20	43951_199110	43951		Swiss Motorists’ Party
+CHE	Switzerland	1995-10-22	43110_199510	43110	GPS/PES	Green Party of Switzerland
+CHE	Switzerland	1995-10-22	43951_199510	43951	FPS	Freedom Party of Switzerland
+CHE	Switzerland	1999-10-24	43110_199910	43110	GPS/PES	Green Party of Switzerland
+CHE	Switzerland	1999-10-24	43810_199910	43810	SVP/UDC	Swiss People’s Party
+CHE	Switzerland	2003-10-19	43110_200310	43110	GPS/PES	Green Party of Switzerland
+CHE	Switzerland	2003-10-19	43810_200310	43810	SVP/UDC	Swiss People’s Party
+CHE	Switzerland	2007-10-21	43110_200710	43110	GPS/PES	Green Party of Switzerland
+CHE	Switzerland	2007-10-21	43120_200710	43120	GLP	Green Liberal Party
+CHE	Switzerland	2007-10-21	43810_200710	43810	SVP/UDC	Swiss People’s Party
+CHE	Switzerland	2007-10-21	43901_200710	43901	LdT	Ticino League
+CHE	Switzerland	2011-10-23	43110_201110	43110	GPS/PES	Green Party of Switzerland
+CHE	Switzerland	2011-10-23	43120_201110	43120	GLP	Green Liberal Party
+CHE	Switzerland	2011-10-23	43810_201110	43810	SVP/UDC	Swiss People’s Party
+CHE	Switzerland	2011-10-23	43901_201110	43901	LdT	Ticino League
+CHE	Switzerland	2015-10-18	43110_201510	43110	GPS/PES	Green Party of Switzerland
+CHE	Switzerland	2015-10-18	43120_201510	43120	GLP	Green Liberal Party
+CHE	Switzerland	2015-10-18	43810_201510	43810	SVP/UDC	Swiss People’s Party
+CHE	Switzerland	2019-10-20	43110_201910	43110	GPS/PES	Green Party of Switzerland
+CHE	Switzerland	2019-10-20	43120_201910	43120	GLP	Green Liberal Party
+CHE	Switzerland	2019-10-20	43810_201910	43810	SVP/UDC	Swiss People’s Party
+CHE	Switzerland	2019-10-20	43901_201910	43901	LdT	Ticino League
+UKR	Ukraine	1998-03-29	98111_199803	98111	PZU	Green Party of Ukraine
+GBR	United Kingdom	2001-06-07	51951_200106	51951	UKIP	United Kingdom Independence Party
+GBR	United Kingdom	2015-05-07	51110_201505	51110	GPEW	Green Party of England and Wales
+GBR	United Kingdom	2015-05-07	51951_201505	51951	UKIP	United Kingdom Independence Party
+GBR	United Kingdom	2017-06-08	51110_201706	51110	GPEW	Green Party of England and Wales
+GBR	United Kingdom	2017-06-08	51951_201706	51951	UKIP	United Kingdom Independence Party
+GBR	United Kingdom	2019-12-12	51110_201912	51110	GPEW	Green Party of England and Wales

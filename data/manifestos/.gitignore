@@ -1,0 +1,5 @@
+# too large
+all_cmp_translation_manifesto_sentences.tsv
+all_manifesto_sentences_translated.tsv
+# use feather files instead
+all_manifesto_sentences.tsv

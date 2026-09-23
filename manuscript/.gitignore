@@ -1,0 +1,12 @@
+submission/
+references-all.bib
+
+*.ptc
+*.log
+*.aux
+*.fls
+*_files/
+*.fdb_latexmk
+*.synctex.gz
+
+parse_citations.ipynb

@@ -1,27 +1,14 @@
-**/__pycache__/
-
-_arxiv/
-data/
-src/
-apxs/
-secs/
-code/
-
-results/classifier_evaluation/
-results/intermediate/
+.env
+.vscode/
 
 notes.md
 outline.md
 todos.md
 
-_main.tex
-_main.pdf
-_main.qmd
-*.ptc
-*.log
-*.aux
-*.fls
-*_files/
-*.fdb_latexmk
-*.synctex.gz
+**/__pycache__/
+**/xx_deprecated/
+
+.DS_Store
+**/.DS_Store
+
 

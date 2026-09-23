@@ -1,0 +1,72 @@
+economic_attributes:
+  display_name: "economic attributes"
+  attributes:
+    "class membership":
+      - "upper class"
+      - "middle class"
+      - "lower class"
+      - "working class"
+    "employment status":
+      - "employers"
+      - "employees"
+      - "self-employed"
+      - "unemployed"
+    "education level":
+      - "students"
+      - "apprentices"
+      - "graduates"
+    "income/wealth/economic status":
+      - "high/medium/low income"
+      - "rich/poor"
+      - "homeowners/tenants/homeless"
+    "occupation/profession":
+      - "teachers"
+      - "farmers"
+      - "public servants"
+      - "police officers"
+    "ecology of group":
+      - "coal miners"
+      - "green employers"
+      - "green workers"
+      - "sustainable farmers"
+      - "those working in the fossil sector"
+non_economic_attributes: 
+  display_name: "non-economic attributes"
+  attributes:
+    "age":
+      - "children"
+      - "young people"
+      - "old people"
+      - "future generations"
+    "family":
+      - "fathers"
+      - "mothers"
+      - "parents"
+    "gender/sexuality":
+      - "men"
+      - "women"
+      - "LGBTQI+ people"
+    "place/location":
+      - "rural"
+      - "urban"
+      - "global south"
+      - "global north"
+    "nationality":
+      - "natives"
+      - "immigrants"
+    "ethnicity":
+      - "people of color"
+      - "ethnic minorities"
+    "religion":
+      - "christians"
+      - "jews"
+      - "muslims"
+    "health":
+      - "disabled/handicapped people"
+      - "chronically sick"
+    "crime":
+      - "offenders/criminals"
+      - "victims"
+    "shared values/mentalities":
+      - "people with a growth mindset"
+      - "a more equal society"

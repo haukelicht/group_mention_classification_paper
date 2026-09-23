@@ -1,0 +1,7 @@
+# too large
+labeled_mentions_cmp_translations_with_party_metadata.pkl
+# use feather files instead
+labeled_mentions_with_party_metadata.pkl
+
+# ingore
+save_large_files_as_feather.py
