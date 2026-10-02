@@ -5,12 +5,12 @@ This repository contains the replication materials for the paper "Attributes, Ab
 
 ```bibtex
 @article{licht_roeth_2026,
-  title={Attributes, Abstractions, and Combinations: A New Taxonomy for Studying How Parties Invoke Social Groups},
+  title={Attributes, abstractions, and combinations: a new taxonomy for studying how parties invoke social groups},
   author={Hauke Licht and Leonce Röth},
   journal={Journal of European Public Policy},
   volume={},
   number={},
-  pages={},
+  pages={1-40},
   year={2026},
   date={2026-10-01},
   url={http://www.tandfonline.com/10.1080/13501763.2026.2737691},
