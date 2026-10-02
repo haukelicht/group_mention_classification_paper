@@ -12,7 +12,7 @@ This repository contains the replication materials for the paper "Attributes, Ab
   number={},
   pages={},
   year={2026},
-  date={2026-09},
+  date={2026-10-01},
   url={http://www.tandfonline.com/10.1080/13501763.2026.2737691},
   doi={10.1080/13501763.2026.2737691}
 }
