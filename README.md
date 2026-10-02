@@ -1,7 +1,7 @@
 
 # Replication materials for "Attributes, Abstractions, and Combinations: A New Taxonomy for Studying How Parties Invoke Social Groups"
 
-This repository contains the replication materials for the paper "Attributes, Abstractions, and Combinations: A New Taxonomy for Studying How Parties Invoke Social Groups" by [Hauke Licht](https://haukelicht.github.io/) and [Leonce Röth](https://scholar.google.com/citations?user=IEV3CNoAAAAJ):
+This repository contains the replication materials for the paper ["Attributes, abstractions, and combinations: a new taxonomy for studying how parties invoke social groups"](http://www.tandfonline.com/10.1080/13501763.2026.2737691) by [Hauke Licht](https://haukelicht.github.io/) and [Leonce Röth](https://scholar.google.com/citations?user=IEV3CNoAAAAJ):
 
 ```bibtex
 @article{licht_roeth_2026,
